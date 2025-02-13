@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.stopwatch {
+    background-color: rgb(26, 138, 138);
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+
+}
+body{
+    background-image: url(kk.jpg);
+
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #4caf50;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color:#f3f4f6;
+}
+
+.controls button.reset {
+    background-color: #c52626;
+}
+
+.controls button.reset:hover {
+    background-color: burlywood;
+}
